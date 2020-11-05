@@ -26,7 +26,7 @@ Thats it!
 
 - **loop_to_execute (Required):** Python loop parameter (list(), dictionary(), tuple(), str(), range(), etc.) i.e. iterable object for which progress bar is shown.
 - **prefix (Optional):** A string which is shown before the progress bar to describe the progress bar (Default: "Progress:").
-- **suffix (Optional):** A string which is show after the progress bar to describe the progress percentage show after the progress bar (Default: "Complete").
+- **suffix (Optional):** A string which is show after the progress bar to describe the progress percentage shown after the progress bar (Default: "Complete").
 - **length (Optional):** Length of the progress bar in charecters. Can be adjusted according to one's console charecter width (Default: 50).
 
 Highly useful when you want to run huge loops but don't want to just see the blinking cursor of the console while it is executing.
