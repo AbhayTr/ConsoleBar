@@ -16,8 +16,8 @@ take loads of time to execute.
 @params
 
 loop_to_execute (Required): Python loop parameter (list(), dictionary(), tuple(), str(), range(), etc.) i.e. iterable object for which progress bar is shown.
-prefix (Optional): A string which is show before the progress bar to describe the progress bar (Default: "Progress:")
-suffix (Optional): A string which is show after the progress bar to describe the progress percentage show after the progress bar (Default: "Complete:")
+prefix (Optional): A string which is shown before the progress bar to describe the progress bar (Default: "Progress:").
+suffix (Optional): A string which is shown after the progress bar to describe the progress percentage shown after the progress bar (Default: "Complete").
 length (Optional): Length of the progress bar in charecters. Can be adjusted according to one's console charecter width (Default: 50).
 
 This module is made and intended for non-commercial use only.
