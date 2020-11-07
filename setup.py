@@ -1,6 +1,8 @@
-from distutils.core import setup
+from setuptools import setup
 
-VERSION = "v1.0"
+VERSION = "v1.1"
+
+readme = open("readme.md", "r").read();
 
 setup(
     name = "consolebar",
@@ -8,6 +10,8 @@ setup(
     version = VERSION,
     license = "MIT",
     description = "Stunning progress bars for consoles for showing progress of python loops!",
+    long_description = readme,
+    long_description_content_type = "text/markdown",
     author = "Abhay Tripathi",
     author_email = "abhay.triipathi@gmail.com",
     url = "https://github.com/AbhayTr/ConsoleBar",
